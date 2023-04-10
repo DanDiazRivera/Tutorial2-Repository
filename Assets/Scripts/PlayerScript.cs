@@ -75,6 +75,9 @@ public class PlayerScript : MonoBehaviour
       if (hozMovement == 0 && vertMovement == 0){
             anim.SetInteger("State", 0);
       }
+      if (Input.GetKeyDown(KeyCode.W)){
+
+      }
     }
     
     private void OnCollisionEnter2D(Collision2D collision)
